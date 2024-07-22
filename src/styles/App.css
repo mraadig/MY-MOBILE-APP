@@ -1,0 +1,76 @@
+/* src/styles/global.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  background: url('/src/Assets/image 39.png') no-repeat center center;
+  background-size: cover;
+}
+
+.content {
+  background-color: rgba(255, 128, 0, 0.9); /* orange background with transparency */
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+.content h1{
+
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+.buttons {
+  width: 100%; /* Full width for button container */
+  height: 90px; /* Fixed height */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dot {
+  height: 5px;
+  width: 20px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 100px;
+  display: inline-block;
+  
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+.centered-button {
+  display: flex; /* Use flex to center the image */
+  justify-content: center; /* Center horizontally */
+  margin-top: 30px; /* Space above the image */
+  height: 90px; /* Match the height of the button area */
+}
+
+.next-button-image {
+  width: 70px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  cursor: pointer;
+}

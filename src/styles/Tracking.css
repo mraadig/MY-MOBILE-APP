@@ -1,0 +1,64 @@
+/* Tracking.css */
+
+.trackScreen {
+    background: url('/src/Assets/image 39.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.tracking-container {
+    max-width: 800px; /* Adjust as needed */
+    width: 100%; /* Ensure it takes full width up to max-width */
+    padding: 20px; /* Add padding inside the box */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fffffffe; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.quote-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f9f9f9be;
+}
+
+.share-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.share-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.trackLogout {
+    margin-top: 20px;
+    color: rgba(255, 128, 0, 0.9); /* Link color */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.trackLogout:hover {
+    text-decoration: underline;
+}
+
+.copy-feedback {
+    margin-top: 10px;
+    color: green; /* Change color as needed */
+    font-size: 14px;
+}
