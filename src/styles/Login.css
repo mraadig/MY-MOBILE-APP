@@ -54,12 +54,12 @@ input[type="password"]:focus {
 
 /* Submit button styling */
 button[type="submit"] {
-  width: 400px;
+  width: 100%; /* Make the button take up the full width of its container */
+  max-width: 400px; /* Set a maximum width to prevent it from becoming too large */
   height: 52px;
   background-color: rgba(255, 128, 0, 0.9);
   color: #fff;
   padding: 10px;
- 
   border: none;
   border-radius: 100px;
   cursor: pointer;
